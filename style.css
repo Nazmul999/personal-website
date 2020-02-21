@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+section{
+
+    height: 500px;
+    padding-bottom: 150px;
+
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.text_highlight{
+    color: orange;
+}
+.half_width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half_width img{
+    width: 100%;
+}
+.header_part{
+    background-image: url(images/header-bg.png) ;
+    background-repeat: no-repeat ;
+}
+
+.link_button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(252, 8, 8), rgb(238, 118, 96));
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.bio_area{
+    background-image: url(images/biography-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.latest_work{
+    background-image: url(images/latest-work-bg.png) ;
+    background-repeat: no-repeat;
+  padding: 150px;
+    text-align: center;
+}
+.images{
+    display: flex;
+}
+.work_img{
+    padding: 25px;
+    justify-content: center;
+    text-align: center;
+}
+.client_area{
+    background-image: url(images/footer-bg.png) ;
+    background-repeat: no-repeat;
+    
+  padding:0 150px;
+    text-align: center;
+}
+.text{
+    color: white;
+    font-weight: 600;
+}
+.message_button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(252, 8, 8), rgb(238, 118, 96));
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    font-weight: 700px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
